@@ -12,10 +12,6 @@ Allows creation, reading, updating, and deleting products, with data persistence
 - [Getting Started](#getting-started)  
 - [Project Structure](#project-structure)  
 - [API Endpoints](#api-endpoints)  
-- [Scripts](#scripts)  
-- [Examples](#examples)  
-- [Contributing](#contributing)  
-- [License](#license)  
 
 ---
 
@@ -51,3 +47,12 @@ Allows creation, reading, updating, and deleting products, with data persistence
 git clone https://github.com/Omar-Issa1/Store_api.git
 cd Store_api
 npm install
+```
+## API Endpoints
+| Method | Path            | Description                |
+| ------ | --------------- | -------------------------- |
+| GET    | `/products`     | Get list of all products   |
+| GET    | `/products/:id` | Get a single product by ID |
+| POST   | `/products`     | Create a new product       |
+| PUT    | `/products/:id` | Update a product by ID     |
+| DELETE | `/products/:id` | Delete a product by ID     |
